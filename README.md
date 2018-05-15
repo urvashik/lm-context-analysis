@@ -1,6 +1,6 @@
 # How Neural Language Models Use Context
 
-This repository contains code for experiments described in the ACL 2018 publication: [Sharp Nearby, Fuzzy Far Away: How Neural Language Models Use Context](arxiv link here). It was developed using the [AWD LSTM Language Model](https://github.com/salesforce/awd-lstm-lm/tree/bf0742cab41d8bf4cd817acfe7e5e0cbff4131ba) code (the older release in PyTorch v0.2.0) provided by Merity et al. 
+This repository contains code for experiments described in the ACL 2018 publication: [Sharp Nearby, Fuzzy Far Away: How Neural Language Models Use Context](https://arxiv.org/abs/1805.04623). It was developed using the [AWD LSTM Language Model](https://github.com/salesforce/awd-lstm-lm/tree/bf0742cab41d8bf4cd817acfe7e5e0cbff4131ba) code (the older release in PyTorch v0.2.0) provided by Merity et al. 
 
 Running this code requires the user to first train a language model. Then, they can evaluate it with restricted context and perturbed inputs to better understand how it is modeling nearby vs. long-range context. For further details on our experiments, we refer the reader to the paper.
 
